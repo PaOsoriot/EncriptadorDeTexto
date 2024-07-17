@@ -13,22 +13,23 @@
             <textarea id="texto-encriptado" class="inputPadron" required></textarea>
             <div class="btn">
                 <button class="btnEncriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 <button class="btnEliminar" onclick="btnEliminar()">Eliminar</button>
-                <button class="btnCopiar" onclick="btnCopiar()">Copiar</button>
+                <button class="btnCopiar hidden" onclick="btnCopiar()">Copiar</button>
             </div>
         </section>
         <section class="encriptado" id="seccion-encriptado" style="display: none;">
             <h2 class="mensajeDeEncriptado">¡Su mensaje fue encriptado!</h2>
-            <textarea id="mensajeEncriptado" class="mensajeEncriptado"></textarea>
+            <textarea id="mensajeEncriptado" class="mensajeEncriptado" readonly></textarea>
         </section>
         <section class="informacion">
             <p class="titulo">¡Información!</p>
             <p class="frase">Antes de escribir tu mensaje debes tener en cuenta lo siguiente:</p>
             <div class="contenido-informacion">
                 <ul class="lista-informacion">
-                    <li class="items">No puedes usar mayúsculas.</li>
-                    <li class="items">No puedes utilizar letras con acentos.</li>
-                    <li class="items">No puedes utilizar caracteres especiales.</li>
+                    <li class="items">No puedes usar mayúsculas("NO").</li>
+                    <li class="items">No puedes utilizar letras con acentos("´").</li>
+                    <li class="items">No puedes utilizar caracteres especiales("@$").</li>
                 </ul> 
             </div>      
         </section>
