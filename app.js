@@ -54,3 +54,4 @@ function btnCopiar() {
     document.execCommand("copy");
     alert("Texto copiado al portapapeles");
 }
+
