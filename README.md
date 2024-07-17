@@ -1,4 +1,3 @@
-
 <h3> ¡Hola! bienvenido a mi proyecto llamado "Encriptador de texto".  </h3>
 <p> Antes de mostrarte de forma visual como se ve el proyecto, te dejare un poco de información sobre de que trata el mismo. </p>
 
