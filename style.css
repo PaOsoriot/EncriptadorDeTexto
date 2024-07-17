@@ -1,0 +1,166 @@
+body {
+    background-image: url(imagenes/fondo-habitacion.gif);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h2 {
+    color: white;
+    position: fixed;
+    top: 30px;
+    left: 47%;
+    background: rgba(0, 0, 0, 0.585);
+    background-size: 100px;
+    background-attachment: fixed;
+}
+
+.titulo, p {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.frase, p {
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.contenido-informacion {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.lista-informacion {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items {
+    line-height: 1.5;
+}
+
+.items::before {
+    content: "🚫";
+}
+
+.informacion {
+    font-family: sans-serif;
+    font-size: 13px;
+    width: 25%;
+    height: 28%;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    padding: 20px;
+    background-color: rgba(157, 225, 89, 0.714);
+    margin: 5px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.inputPadron {
+    width: 30%;
+    height: 65%;
+    resize: none;
+    overflow: hidden;
+    position: fixed;
+    top: 12%;
+    left: 40%;
+    background-color: rgba(0, 0, 255, 0.541);
+    margin: 5px;
+    border-radius: 10px;
+    border-color: black;
+    background-attachment: fixed;
+    color: white; /* Color del texto */
+}
+
+.inputPadron, text {
+    text-transform: lowercase;
+}
+
+.mensajeDeEncriptado {
+    display: inline;
+    position: fixed;
+    top: 5%;
+    left: 75%;
+    visibility: visible;
+    background-attachment: fixed;
+}
+
+.mensajeEncriptado {
+    width: 20%;
+    height: 65%;
+    resize: none;
+    overflow: hidden;
+    position: fixed;
+    top: 12%;
+    left: 75%;
+    background-color: rgba(14, 13, 12, 0.741);
+    margin: 5px;
+    border-radius: 10px;
+    border-color: black;
+    color: white; /* Color del texto */
+}
+
+/* Botones */
+
+.btnEncriptar {
+    width: 13%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    background: rgba(125, 183, 8, 0.763);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    position: fixed;
+    top: 80%;
+    left: 40%;
+}
+
+.btnEliminar {
+    width: 13%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    background: rgba(237, 17, 17, 0.843);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    position: fixed;
+    top: 80%;
+    left: 58%;
+}
+
+.btnCopiar {
+    width: 10%;
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    background: rgba(211, 17, 237, 0.843);
+    border: none;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+}
+
+/* Copyright */
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+    position: fixed;
+    top: 90%;
+    left: 45%;
+}
